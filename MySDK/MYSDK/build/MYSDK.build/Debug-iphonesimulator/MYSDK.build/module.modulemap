@@ -1,0 +1,6 @@
+framework module MYSDK {
+  umbrella header "MYSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MYSDK-Universal.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MYSDK.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>MySDKVendor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BA73EB2B1E5EC8E0006B5AFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA73EB341E5EC8E1006B5AFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA73EB9E1E5ECD4B006B5AFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA73EBB51E5ED692006B5AFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

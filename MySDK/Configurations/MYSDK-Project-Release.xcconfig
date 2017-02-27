@@ -1,0 +1,8 @@
+//
+//  MYSDK-Project-Release.xcconfig
+//  MYSDK
+//
+//  Created by 郑信鸿 on 17/2/23.
+//  Copyright © 2017年 郑信鸿. All rights reserved.
+//
+#include "MySDK-Project.xcconfig"

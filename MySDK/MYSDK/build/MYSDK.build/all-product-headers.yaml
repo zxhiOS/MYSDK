@@ -1,0 +1,38 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/zhengxinhong/Library/Developer/Xcode/DerivedData/MYSDK-diphssbrzheacxckhqzlunikvllc/Build/Products/Debug-iphonesimulator/MYSDK.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MYSDK-Swift.h",
+          'external-contents': "/Users/zhengxinhong/Library/Developer/Xcode/DerivedData/MYSDK-diphssbrzheacxckhqzlunikvllc/Build/Products/Debug-iphonesimulator/MYSDK.framework/Headers/MYSDK-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MYSDK.h",
+          'external-contents': "/Users/zhengxinhong/Desktop/MySDK/MYSDK/MYSDK/MYSDK.h"
+        },
+        {
+          'type': 'file',
+          'name': "MYSDKManger.h",
+          'external-contents': "/Users/zhengxinhong/Desktop/MySDK/MYSDK/MYSDK/MYSDKManger.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zhengxinhong/Library/Developer/Xcode/DerivedData/MYSDK-diphssbrzheacxckhqzlunikvllc/Build/Products/Debug-iphonesimulator/MYSDK.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zhengxinhong/Desktop/MySDK/MYSDK/build/MYSDK.build/Debug-iphonesimulator/MYSDK.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

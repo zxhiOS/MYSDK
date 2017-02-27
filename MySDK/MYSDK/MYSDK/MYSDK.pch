@@ -1,0 +1,16 @@
+//
+//  MYSDK.pch
+//  MYSDK
+//
+//  Created by 郑信鸿 on 17/2/23.
+//  Copyright © 2017年 郑信鸿. All rights reserved.
+//
+
+#ifndef MYSDK_pch
+#define MYSDK_pch
+
+#import "MYSDK+Namespace.h"
+#import "AFNetworking.h"
+#import "SDKLog.h"
+
+#endif /* MYSDK_pch */

@@ -1,0 +1,204 @@
+// Namespaced Header
+#ifndef __NS_SYMBOL
+// We need to have multiple levels of macros here so that __NAMESPACE_PREFIX_ is
+// properly replaced by the time we concatenate the namespace prefix.
+#define __NS_REWRITE(ns, symbol) ns ## _ ## symbol
+#define __NS_BRIDGE(ns, symbol) __NS_REWRITE(ns, symbol)
+#define __NS_SYMBOL(symbol) __NS_BRIDGE(MYSDK, symbol)
+#endif
+
+// Classes
+#ifndef MYSDK_AFCompoundResponseSerializer
+#define MYSDK_AFCompoundResponseSerializer __NS_SYMBOL(MYSDK_AFCompoundResponseSerializer)
+#endif
+
+#ifndef MYSDK_AFHTTPBodyPart
+#define MYSDK_AFHTTPBodyPart __NS_SYMBOL(MYSDK_AFHTTPBodyPart)
+#endif
+
+#ifndef MYSDK_AFHTTPRequestSerializer
+#define MYSDK_AFHTTPRequestSerializer __NS_SYMBOL(MYSDK_AFHTTPRequestSerializer)
+#endif
+
+#ifndef MYSDK_AFHTTPResponseSerializer
+#define MYSDK_AFHTTPResponseSerializer __NS_SYMBOL(MYSDK_AFHTTPResponseSerializer)
+#endif
+
+#ifndef MYSDK_AFHTTPSessionManager
+#define MYSDK_AFHTTPSessionManager __NS_SYMBOL(MYSDK_AFHTTPSessionManager)
+#endif
+
+#ifndef MYSDK_AFImageResponseSerializer
+#define MYSDK_AFImageResponseSerializer __NS_SYMBOL(MYSDK_AFImageResponseSerializer)
+#endif
+
+#ifndef MYSDK_AFJSONRequestSerializer
+#define MYSDK_AFJSONRequestSerializer __NS_SYMBOL(MYSDK_AFJSONRequestSerializer)
+#endif
+
+#ifndef MYSDK_AFJSONResponseSerializer
+#define MYSDK_AFJSONResponseSerializer __NS_SYMBOL(MYSDK_AFJSONResponseSerializer)
+#endif
+
+#ifndef MYSDK_AFMultipartBodyStream
+#define MYSDK_AFMultipartBodyStream __NS_SYMBOL(MYSDK_AFMultipartBodyStream)
+#endif
+
+#ifndef MYSDK_AFNetworkReachabilityManager
+#define MYSDK_AFNetworkReachabilityManager __NS_SYMBOL(MYSDK_AFNetworkReachabilityManager)
+#endif
+
+#ifndef MYSDK_AFPropertyListRequestSerializer
+#define MYSDK_AFPropertyListRequestSerializer __NS_SYMBOL(MYSDK_AFPropertyListRequestSerializer)
+#endif
+
+#ifndef MYSDK_AFPropertyListResponseSerializer
+#define MYSDK_AFPropertyListResponseSerializer __NS_SYMBOL(MYSDK_AFPropertyListResponseSerializer)
+#endif
+
+#ifndef MYSDK_AFQueryStringPair
+#define MYSDK_AFQueryStringPair __NS_SYMBOL(MYSDK_AFQueryStringPair)
+#endif
+
+#ifndef MYSDK_AFSecurityPolicy
+#define MYSDK_AFSecurityPolicy __NS_SYMBOL(MYSDK_AFSecurityPolicy)
+#endif
+
+#ifndef MYSDK_AFStreamingMultipartFormData
+#define MYSDK_AFStreamingMultipartFormData __NS_SYMBOL(MYSDK_AFStreamingMultipartFormData)
+#endif
+
+#ifndef MYSDK_AFURLSessionManager
+#define MYSDK_AFURLSessionManager __NS_SYMBOL(MYSDK_AFURLSessionManager)
+#endif
+
+#ifndef MYSDK_AFURLSessionManagerTaskDelegate
+#define MYSDK_AFURLSessionManagerTaskDelegate __NS_SYMBOL(MYSDK_AFURLSessionManagerTaskDelegate)
+#endif
+
+#ifndef MYSDK_AFXMLParserResponseSerializer
+#define MYSDK_AFXMLParserResponseSerializer __NS_SYMBOL(MYSDK_AFXMLParserResponseSerializer)
+#endif
+
+#ifndef MYSDK__AFURLSessionTaskSwizzling
+#define MYSDK__AFURLSessionTaskSwizzling __NS_SYMBOL(MYSDK__AFURLSessionTaskSwizzling)
+#endif
+
+// Functions
+#ifndef MYSDK_AFPercentEscapedStringFromString
+#define MYSDK_AFPercentEscapedStringFromString __NS_SYMBOL(MYSDK_AFPercentEscapedStringFromString)
+#endif
+
+#ifndef MYSDK_AFStringFromNetworkReachabilityStatus
+#define MYSDK_AFStringFromNetworkReachabilityStatus __NS_SYMBOL(MYSDK_AFStringFromNetworkReachabilityStatus)
+#endif
+
+#ifndef MYSDK_AFQueryStringFromParameters
+#define MYSDK_AFQueryStringFromParameters __NS_SYMBOL(MYSDK_AFQueryStringFromParameters)
+#endif
+
+#ifndef MYSDK_AFQueryStringPairsFromDictionary
+#define MYSDK_AFQueryStringPairsFromDictionary __NS_SYMBOL(MYSDK_AFQueryStringPairsFromDictionary)
+#endif
+
+#ifndef MYSDK_AFQueryStringPairsFromKeyAndValue
+#define MYSDK_AFQueryStringPairsFromKeyAndValue __NS_SYMBOL(MYSDK_AFQueryStringPairsFromKeyAndValue)
+#endif
+
+// Externs
+#ifndef OBJC_PROTOCOL_$_AFURLResponseSerialization
+#define OBJC_PROTOCOL_$_AFURLResponseSerialization __NS_SYMBOL(OBJC_PROTOCOL_$_AFURLResponseSerialization)
+#endif
+
+#ifndef OBJC_PROTOCOL_$_AFURLRequestSerialization
+#define OBJC_PROTOCOL_$_AFURLRequestSerialization __NS_SYMBOL(OBJC_PROTOCOL_$_AFURLRequestSerialization)
+#endif
+
+#ifndef OBJC_PROTOCOL_$_AFMultipartFormData
+#define OBJC_PROTOCOL_$_AFMultipartFormData __NS_SYMBOL(OBJC_PROTOCOL_$_AFMultipartFormData)
+#endif
+
+#ifndef MySDKVendorVersionString
+#define MySDKVendorVersionString __NS_SYMBOL(MySDKVendorVersionString)
+#endif
+
+#ifndef MySDKVendorVersionNumber
+#define MySDKVendorVersionNumber __NS_SYMBOL(MySDKVendorVersionNumber)
+#endif
+
+#ifndef MYSDK_AFNetworkingReachabilityDidChangeNotification
+#define MYSDK_AFNetworkingReachabilityDidChangeNotification __NS_SYMBOL(MYSDK_AFNetworkingReachabilityDidChangeNotification)
+#endif
+
+#ifndef MYSDK_AFNetworkingReachabilityNotificationStatusItem
+#define MYSDK_AFNetworkingReachabilityNotificationStatusItem __NS_SYMBOL(MYSDK_AFNetworkingReachabilityNotificationStatusItem)
+#endif
+
+#ifndef MYSDK_AFURLResponseSerializationErrorDomain
+#define MYSDK_AFURLResponseSerializationErrorDomain __NS_SYMBOL(MYSDK_AFURLResponseSerializationErrorDomain)
+#endif
+
+#ifndef MYSDK_AFNetworkingOperationFailingURLResponseErrorKey
+#define MYSDK_AFNetworkingOperationFailingURLResponseErrorKey __NS_SYMBOL(MYSDK_AFNetworkingOperationFailingURLResponseErrorKey)
+#endif
+
+#ifndef MYSDK_AFNetworkingOperationFailingURLResponseDataErrorKey
+#define MYSDK_AFNetworkingOperationFailingURLResponseDataErrorKey __NS_SYMBOL(MYSDK_AFNetworkingOperationFailingURLResponseDataErrorKey)
+#endif
+
+#ifndef MYSDK_AFNetworkingTaskDidResumeNotification
+#define MYSDK_AFNetworkingTaskDidResumeNotification __NS_SYMBOL(MYSDK_AFNetworkingTaskDidResumeNotification)
+#endif
+
+#ifndef MYSDK_AFNetworkingTaskDidCompleteNotification
+#define MYSDK_AFNetworkingTaskDidCompleteNotification __NS_SYMBOL(MYSDK_AFNetworkingTaskDidCompleteNotification)
+#endif
+
+#ifndef MYSDK_AFNetworkingTaskDidSuspendNotification
+#define MYSDK_AFNetworkingTaskDidSuspendNotification __NS_SYMBOL(MYSDK_AFNetworkingTaskDidSuspendNotification)
+#endif
+
+#ifndef MYSDK_AFURLSessionDidInvalidateNotification
+#define MYSDK_AFURLSessionDidInvalidateNotification __NS_SYMBOL(MYSDK_AFURLSessionDidInvalidateNotification)
+#endif
+
+#ifndef MYSDK_AFURLSessionDownloadTaskDidFailToMoveFileNotification
+#define MYSDK_AFURLSessionDownloadTaskDidFailToMoveFileNotification __NS_SYMBOL(MYSDK_AFURLSessionDownloadTaskDidFailToMoveFileNotification)
+#endif
+
+#ifndef MYSDK_AFNetworkingTaskDidCompleteSerializedResponseKey
+#define MYSDK_AFNetworkingTaskDidCompleteSerializedResponseKey __NS_SYMBOL(MYSDK_AFNetworkingTaskDidCompleteSerializedResponseKey)
+#endif
+
+#ifndef MYSDK_AFNetworkingTaskDidCompleteResponseSerializerKey
+#define MYSDK_AFNetworkingTaskDidCompleteResponseSerializerKey __NS_SYMBOL(MYSDK_AFNetworkingTaskDidCompleteResponseSerializerKey)
+#endif
+
+#ifndef MYSDK_AFNetworkingTaskDidCompleteResponseDataKey
+#define MYSDK_AFNetworkingTaskDidCompleteResponseDataKey __NS_SYMBOL(MYSDK_AFNetworkingTaskDidCompleteResponseDataKey)
+#endif
+
+#ifndef MYSDK_AFNetworkingTaskDidCompleteErrorKey
+#define MYSDK_AFNetworkingTaskDidCompleteErrorKey __NS_SYMBOL(MYSDK_AFNetworkingTaskDidCompleteErrorKey)
+#endif
+
+#ifndef MYSDK_AFNetworkingTaskDidCompleteAssetPathKey
+#define MYSDK_AFNetworkingTaskDidCompleteAssetPathKey __NS_SYMBOL(MYSDK_AFNetworkingTaskDidCompleteAssetPathKey)
+#endif
+
+#ifndef MYSDK_AFURLRequestSerializationErrorDomain
+#define MYSDK_AFURLRequestSerializationErrorDomain __NS_SYMBOL(MYSDK_AFURLRequestSerializationErrorDomain)
+#endif
+
+#ifndef MYSDK_AFNetworkingOperationFailingURLRequestErrorKey
+#define MYSDK_AFNetworkingOperationFailingURLRequestErrorKey __NS_SYMBOL(MYSDK_AFNetworkingOperationFailingURLRequestErrorKey)
+#endif
+
+#ifndef MYSDK_kAFUploadStream3GSuggestedPacketSize
+#define MYSDK_kAFUploadStream3GSuggestedPacketSize __NS_SYMBOL(MYSDK_kAFUploadStream3GSuggestedPacketSize)
+#endif
+
+#ifndef MYSDK_kAFUploadStream3GSuggestedDelay
+#define MYSDK_kAFUploadStream3GSuggestedDelay __NS_SYMBOL(MYSDK_kAFUploadStream3GSuggestedDelay)
+#endif
+
